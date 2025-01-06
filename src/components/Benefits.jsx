@@ -17,11 +17,11 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="relative p-[1px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg md:max-w-[24rem]"
+              className="relative p-[2px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg md:max-w-[24rem]"
               key={item.id}
             >
               {/* Inner Card */}
-              <div className="bg-black rounded-lg flex flex-col min-h-[22rem] p-[2.4rem] relative z-10">
+              <div className="bg-black-3 rounded-lg flex flex-col min-h-[22rem] p-[2.4rem] relative z-10">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
