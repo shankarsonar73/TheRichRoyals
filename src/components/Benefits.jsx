@@ -14,22 +14,18 @@ const Benefits = () => {
           title="Trade Smarter, Not Harder with Rich Royals."
         />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
-            <div className="block relative p-0.5 md:max-w-[24rem]" key={item.id}>
-              {/* Background Image */}
-              <img
-                src="./src/assets/benefits/card-2.svg"
-                alt="Card Background"
-                className="absolute inset-0 w-full h-full object-cover z-1"
-              />
-
-              {/* Content Section */}
+            <div className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              style={{ 
+                backgroundImage: `
+                  url(${item.backgroundUrl})`,
+              }}
+              key={item.id}
+            >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
-
-                {/* Footer with Icon and Link */}
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.iconUrl}
@@ -44,10 +40,8 @@ const Benefits = () => {
                 </div>
               </div>
 
-              {/* Gradient Light */}
               {item.light && <GradientLight />}
 
-              {/* Overlay Section */}
               <div
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
@@ -65,7 +59,6 @@ const Benefits = () => {
                 </div>
               </div>
 
-              {/* Clip Path */}
               <ClipPath />
             </div>
           ))}
