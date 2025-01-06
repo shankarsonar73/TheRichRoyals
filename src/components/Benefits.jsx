@@ -21,7 +21,7 @@ const Benefits = () => {
               key={item.id}
             >
               {/* Inner Card */}
-              <div className="bg-white rounded-lg flex flex-col min-h-[22rem] p-[2.4rem] relative z-10">
+              <div className="bg-black rounded-lg flex flex-col min-h-[22rem] p-[2.4rem] relative z-10">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
