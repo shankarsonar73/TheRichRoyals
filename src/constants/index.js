@@ -90,11 +90,12 @@ export const companyLogos = [tesla,tcs,reliance,icici,
   jio,
   adani];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
-];
+  export const brainwaveServices = [
+    "Trading Strategies: Learn proven methods for market success.",
+    "Market Analysis: Master tools and techniques for smart decisions.",
+    "Personalized Mentorship: Get tailored guidance to grow your skills.",
+  ];
+  
 
 export const brainwaveServicesIcons = [
   recording03,
