@@ -27,11 +27,11 @@ export const BackgroundCircles = () => {
     </>
   );
 };
-
 export const HamburgerMenu = () => {
   return (
-    <div className="absolute inset-0 pointer-events-none lg:hidden">
-      <div className="absolute inset-0 opacity-[.03]">
+    <div className="absolute inset-0 pointer-events-none lg:hidden z-[-1]">
+
+      <div className="absolute inset-0 bg-black opacity-[0.05]">
         <img
           className="w-full h-full object-cover"
           src={therichroyal}
@@ -43,3 +43,4 @@ export const HamburgerMenu = () => {
     </div>
   );
 };
+

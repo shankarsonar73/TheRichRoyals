@@ -9,6 +9,7 @@ import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
+
 const Hero = () => {
   const parallaxRef = useRef(null);
 
