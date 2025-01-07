@@ -9,7 +9,6 @@ import Pricing from "../components/Pricing";
 import Roadmap from "../components/Roadmap";
 import Services from "../components/Services";
 import Experience from '../components/Experience';
-import Slidebar from "../components/Slidebar";
 import '../index.css';
 
 function Home() {
@@ -19,7 +18,7 @@ function Home() {
         <Hero />
         <Benefits />
         <Collaboration />
-        <Slidebar />
+        {/* <Slidebar /> */}
         <Services />
         <Experience />
         <Pricing />
