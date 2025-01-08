@@ -14,7 +14,7 @@ const isValidPass="admin@123"
 const [loading, setLoading] = useState(false);
 const [error, setError] = useState('');
 const navigate = useNavigate();
-// const { setIsLoggedIn } = useAuth(); 
+const { setIsLoggedIn } = useAuth(); 
 
 const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,7 +23,7 @@ const handleSubmit = (e) => {
 
     setTimeout(() => {
       if (isValidEm === email && isValidPass === password) {
-        // setIsLoggedIn(true);
+        setIsLoggedIn(true);
         setLoading(false);
         navigate('/adminpanel');
       } else {
