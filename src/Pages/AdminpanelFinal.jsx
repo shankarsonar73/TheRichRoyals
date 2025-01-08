@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonGradient from "../assets/svg/ButtonGradient";
-import Admincomponent from '../AdminPage/admincomponent';
-import Adminform from '../AdminPage/adminform';
+import Admincomponent from '../AdminPage/Admincomponent';
+import Adminform from '../AdminPage/Adminform';
 import Header from '../components/Header';
 import '../index.css';
 
