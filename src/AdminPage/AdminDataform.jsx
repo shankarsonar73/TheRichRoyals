@@ -1,6 +1,6 @@
 import React from 'react'
 
-function admincomponent() {
+function AdminDataform() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function admincomponent() {
   )
 }
 
-export default admincomponent
+export default AdminDataform
