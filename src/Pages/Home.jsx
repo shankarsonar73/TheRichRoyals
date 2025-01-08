@@ -18,7 +18,6 @@ function Home() {
         <Hero />
         <Benefits />
         <Collaboration />
-        {/* <Slidebar /> */}
         <Services />
         <Experience />
         <Pricing />

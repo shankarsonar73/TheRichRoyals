@@ -1,8 +1,10 @@
 import Section from "./Section";
+import Button from "./Button";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
+import { Gradient } from "./design/Roadmap";
 
 const Pricing = () => {
   return (
@@ -38,14 +40,20 @@ const Pricing = () => {
           <RightLine />
         </div>
 
-        <div className="flex justify-center mt-10">
+        {/* <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="https://api.whatsapp.com/send/?phone=%2B918668417664&text&type=phone_number&app_absent=0"
           >
             See the full details
           </a>
+          
+        </div> */}
+
+        <div className="flex justify-center ">
+          <Button href="https://api.whatsapp.com/send/?phone=%2B918668417664&text&type=phone_number&app_absent=0">See the full details</Button>
         </div>
+
       </div>
     </Section>
   );

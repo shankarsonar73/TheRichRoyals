@@ -69,13 +69,13 @@ export const navigation = [
   {
     id: "4",
     title: "Get Started",
-    url: "#signup",
+    url: "#pricing",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Admin",
-    url: "#login",
+    url: "/login",
     onlyMobile: true,
   },
 ];
