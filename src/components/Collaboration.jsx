@@ -26,8 +26,8 @@ const Collaboration = () => {
               </li>
             ))}
           </ul>
-
-          <Button>Start Now</Button>
+          
+          <Button href="#pricing">Start Now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
