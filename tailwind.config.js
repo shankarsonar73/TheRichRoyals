@@ -14,6 +14,21 @@ export default {
         'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
       colors: {
+        black: {
+          DEFAULT: '#000',
+          100: '#010103',
+          200: '#0E0E10',
+          300: '#1C1C21',
+          500: '#3A3A49',
+          600: '#1A1A1A',
+        },
+        white: {
+          DEFAULT: '#FFFFFF',
+          800: '#E4E4E6',
+          700: '#D6D9E9',
+          600: '#AFB0B6',
+          500: '#62646C',
+        },
         color: {
           1: "#AC6AFF",
           2: "#FFC876",
@@ -77,7 +92,7 @@ export default {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
-
+        terminal: "url('/assets/terminal.png')",
         "benefit-card-1": "url(assets/benefits/card-1.svg)",
         "benefit-card-2": "url(assets/benefits/card-2.svg)",
         "benefit-card-3": "url(assets/benefits/card-3.svg)",
