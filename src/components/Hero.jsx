@@ -92,7 +92,7 @@ const Hero = () => {
           <div className="absolute -top-[100%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[150%] lg:-top-[104%]">
           <img
             src={"https://ik.imagekit.io/y5wnnrdeu8y/hero_img.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648804714775))"}
-            className="w-full"
+            className="h-full"
             width={1440}
             height={1800}
             alt="hero"

@@ -1,20 +1,20 @@
 import React from 'react'
 import ButtonGradient from "../assets/svg/ButtonGradient";
-import AdminBytejas from '../AdminPage/AdminBytejas';
-import AdminDataform from '../AdminPage/AdminDataform';
 import { Toaster } from 'react-hot-toast';
 import CourseList from '../components/CourseList';
 import Header from '../components/Header';
 import CourseForm from '../components/CourseForm';
+import CourseListAdmin from '../AdminPage/CourseListAdmin';
+import AdminHeader from '../components/AdminHeader';
 import '../index.css';
+
 
 function AdminpanelFinal() {
   return (
     <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header/>
+        <AdminHeader/>
         <CourseForm/>
-        <CourseList/>
-        <AdminBytejas/>
+        <CourseListAdmin/>
         <Toaster position="top-right" />
         <ButtonGradient />
       </div>
