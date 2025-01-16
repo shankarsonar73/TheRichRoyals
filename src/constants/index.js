@@ -34,6 +34,7 @@ import {
   searchMd,
   slack,
   sliders04,
+  youtube,
   reliance,
   icici,
   hdfc,
@@ -342,26 +343,27 @@ export const socials = [
     id: "0",
     title: "Instagram",
     iconUrl: instagram,
+    url: "https://www.instagram.com/therichroyals/",
+  },
+  
+  {
+    id: "2",
+    title: "Telegram",
+    iconUrl: telegram,
+    url: "https://t.me/TheRichRoyals",
+  },
+  {
+    id: "3",
+    title: "Youtube",
+    iconUrl: youtube,
     url: "#",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://play.google.com/store/apps/details?id=co.bolton.lifjn",
   },
-  {
-    id: "2",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  // {
-  //   id: "3",
-  //   title: "Telegram",
-  //   iconUrl: telegram,
-  //   url: "#",
-  // },
 ];
 
 

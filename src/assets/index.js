@@ -78,6 +78,7 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import youtube from "./socials/youtube.svg";
 import tesla from "./tesla.svg";
 import tcs from "./tata-consultancy-services.svg";
 import reliance  from "./reliance.svg";
@@ -109,6 +110,7 @@ export {
   therichroyal,
   adani,
   brainwave,
+  youtube,
   check,
   check2,
   loading1,
