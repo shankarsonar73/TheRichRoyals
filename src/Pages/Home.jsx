@@ -11,8 +11,8 @@ import Services from "../components/Services";
 import Experience from '../components/Experience';
 import { Toaster } from 'react-hot-toast';
 import Contact from '../components/Contact';
-
-import CourseList from '../components/CourseList';
+import CourseList1 from '../components/CourseList1';
+// import CourseList from '../components/CourseList';
 import CourseListAdmin from '../AdminPage/CourseListAdmin';
 import '../index.css';
 
@@ -25,7 +25,7 @@ function Home() {
         
         {/* <CourseListAdmin/> */}
 
-        <CourseList/>
+        <CourseList1/>
         <Services />
         <Benefits />
         <Collaboration />
