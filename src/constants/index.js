@@ -258,7 +258,7 @@ export const pricing = [
       "Live Trading and Decision Making",
       "LIFE MANAGEMENT",
     ],
-     link:"https://shankarhere.blob.core.windows.net/shankarsonar/THERICHROYALS free.pdf"
+     link:"https://oilwqapzjkjexrrukekj.supabase.co/storage/v1/object/public/new/ADVANCE%20BATCH%20PDF.pdf?t=2025-01-17T09%3A33%3A30.346Z"
   },
 
 

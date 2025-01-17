@@ -25,7 +25,7 @@ import two from "./2.png";
 import three from "./3.png";
 import four from "./4.png";
 import whatsapp from "./whatsapp.svg";
-
+import ADVANCEBatch from "./ADVANCEBatch.pdf";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
@@ -111,6 +111,7 @@ export {
   therichroyal,
   adani,
   brainwave,
+  ADVANCEBatch,
   youtube,
   check,
   check2,
