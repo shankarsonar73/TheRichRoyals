@@ -250,7 +250,7 @@ export const pricing = [
     id: "1",
     title: "Advanced Batch",
     description: "Comprehensive training covering risk management, trading mindset, live trading experience, performance monitoring, Q&A sessions, continuous improvement, and Forex market expertise.",
-    price: "10000",
+    price: "-",
     features: [
       "In-Depth Knowledge of the Forex Market",
       "Effective Risk Management Techniques",

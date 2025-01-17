@@ -13,13 +13,13 @@ const PricingList = () => {
           <h4 className="h4 mb-4">{item.title}</h4>
 
           <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
-            {item.description}
+            {item.description}  
           </p>
 
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div className="h3">INR</div>
+                {/* <div className="h3">INR</div> */}
                 <div className="text-[3rem] leading-none font-bold">
                   {item.price}
                 </div>
@@ -33,9 +33,11 @@ const PricingList = () => {
               target="_blank"
               rel="noreferrer"
             >
-              {item.price ? "Get started" : "Contact us"}
+             {item.price === "adv" ? "Contact us" : item.price ? "Get Started" : "Contact us"}
             </a>
           </Button>
+
+         
 
 
 
