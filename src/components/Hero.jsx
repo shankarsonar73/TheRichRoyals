@@ -43,7 +43,7 @@ const Hero = () => {
           Empowering You to Master Forex Trading.
           </p>
           <Button href="#pricing" white>
-            Get started
+            ENROLL NOW
           </Button>
 
         </div>

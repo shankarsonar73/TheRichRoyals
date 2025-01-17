@@ -81,8 +81,11 @@ export default function CourseList1() {
 
   if (offers.length === 0) {
     return (
-      <div className="text-center py-12">
-        <p className="text-gray-600">No courses available yet.</p>
+      // <div className="text-center py-12">
+      //   <p className="text-gray-600">No courses available yet.</p>
+      // </div>
+      <div>
+        
       </div>
     )
   }
