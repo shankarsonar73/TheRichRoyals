@@ -23,10 +23,10 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-        <h1 className="h4 mb-6">
+        <h1 className="h4 mb-6 font-montserrat font-extrabold text-gray-500">
           WE ARE THE RICH ROYALS. <br />
           Empowering You To Achieve {" "}
-          <span className="inline-block relative">
+          <span className="inline-block relative font-montserrat font-extrabold text-white">
             Greatness{" "}
             <img
               src={curve}
@@ -39,7 +39,7 @@ const Hero = () => {
         </h1>
 
 
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8 font-montserrat font-bold">
           Empowering You to Master Forex Trading.
           </p>
           <Button href="#pricing" white>

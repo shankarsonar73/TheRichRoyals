@@ -60,6 +60,15 @@ export default {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
+        sora: ['Sora', 'sans-serif'],
+        exo2: ['"Exo 2"', 'sans-serif'], 
+        barriecito: ['Barriecito', 'cursive'],
+        mouseMemoirs: ['Mouse Memoirs', 'cursive'], 
+        montserratSubrayada: ['Montserrat Subrayada', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'], 
+      },
+      fontWeight: {
+        800: '800', // Ensure that 800 is available in the font weights
       },
       letterSpacing: {
         tagline: ".15em",
