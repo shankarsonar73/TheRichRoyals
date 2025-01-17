@@ -282,7 +282,6 @@ export const pricing = [
 
 
 
-
 export const benefits = [
   {
     id: "benefit-card-1",
@@ -385,7 +384,7 @@ export const experiences = [
     company_name: "Intermediate Module",
     icon: therichroyal,
     iconBg: "#E6DEDD",
-    date: "Weeks 2-4",
+    date: "Weeks 2",
     points: [
       "Learn to analyze price charts and identify patterns for predicting market trends.",
       "Understand the use of indicators such as RSI, MACD, and Bollinger Bands.",
@@ -397,7 +396,7 @@ export const experiences = [
     company_name: "Advanced Module",
     icon: therichroyal,
     iconBg: "#383E56",
-    date: "Weeks 5-6",
+    date: "Weeks 3-4",
     points: [
       "Study financial statements, earnings reports, and key macroeconomic indicators.",
       "Assess long-term growth potential and valuation of assets.",
@@ -409,31 +408,31 @@ export const experiences = [
     company_name: "Professional Trader Insights",
     icon: therichroyal,
     iconBg: "#E6DEDD",
-    date: "Week 7",
+    date: "Week 5",
     points: [
       "Learn effective risk management techniques to safeguard your capital.",
       "Understand position sizing, stop-loss placements, and risk-reward ratios.",
       "Build emotional resilience to stay disciplined and avoid impulsive decisions.",
     ],
   },
+  // {
+  //   title: "Step 5: Mastering Algorithmic Trading",
+  //   company_name: "Algorithmic Module",
+  //   icon: therichroyal,
+  //   iconBg: "#383E56",
+  //   date: "Weeks 8-9",
+  //   points: [
+  //     "Get introduced to algorithmic trading and quantitative analysis.",
+  //     "Learn to create and backtest automated trading strategies using Python.",
+  //     "Implement algorithms to streamline and improve your trading execution.",
+  //   ],
+  // },
   {
-    title: "Step 5: Mastering Algorithmic Trading",
-    company_name: "Algorithmic Module",
-    icon: therichroyal,
-    iconBg: "#383E56",
-    date: "Weeks 8-9",
-    points: [
-      "Get introduced to algorithmic trading and quantitative analysis.",
-      "Learn to create and backtest automated trading strategies using Python.",
-      "Implement algorithms to streamline and improve your trading execution.",
-    ],
-  },
-  {
-    title: "Step 6: Options and Advanced Strategies",
+    title: "Step 5: Options and Advanced Strategies",
     company_name: "Derivatives Masterclass",
     icon: therichroyal,
     iconBg: "#E6DEDD",
-    date: "Weeks 10-11",
+    date: "Weeks 6",
     points: [
       "Master options trading, including advanced strategies like straddles and spreads.",
       "Learn to use derivatives for hedging and enhancing portfolio returns.",
@@ -441,11 +440,11 @@ export const experiences = [
     ],
   },
   {
-    title: "Step 7: Building a Trading Career",
+    title: "Step 6: Building a Trading Career",
     company_name: "Career Focused Module",
     icon: therichroyal,
     iconBg: "#383E56",
-    date: "Week 12",
+    date: "Week 7",
     points: [
       "Learn to design and manage a diversified trading portfolio.",
       "Understand how to scale your trading as a profession or supplemental income.",
