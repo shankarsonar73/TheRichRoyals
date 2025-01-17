@@ -24,6 +24,7 @@ import one from "./1.png";
 import two from "./2.png";
 import three from "./3.png";
 import four from "./4.png";
+import whatsapp from "./whatsapp.gif";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -128,6 +129,7 @@ export {
   recording03,
   recording01,
   disc02,
+  whatsapp,
   chromecast,
   sliders04,
   loading,

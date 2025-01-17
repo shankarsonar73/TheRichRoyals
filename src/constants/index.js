@@ -371,7 +371,7 @@ export const experiences = [
   {
     title: "Step 1: Understanding Financial Markets",
     company_name: "Beginner's Module",
-    icon: tesla,
+    icon: therichroyal,
     iconBg: "#383E56",
     date: "Week 1",
     points: [
@@ -383,7 +383,7 @@ export const experiences = [
   {
     title: "Step 2: Mastering Technical Analysis",
     company_name: "Intermediate Module",
-    icon: tesla,
+    icon: therichroyal,
     iconBg: "#E6DEDD",
     date: "Weeks 2-4",
     points: [
@@ -395,7 +395,7 @@ export const experiences = [
   {
     title: "Step 3: Learning Fundamental Analysis",
     company_name: "Advanced Module",
-    icon: tesla,
+    icon: therichroyal,
     iconBg: "#383E56",
     date: "Weeks 5-6",
     points: [
@@ -407,7 +407,7 @@ export const experiences = [
   {
     title: "Step 4: Risk Management and Psychology",
     company_name: "Professional Trader Insights",
-    icon: tesla,
+    icon: therichroyal,
     iconBg: "#E6DEDD",
     date: "Week 7",
     points: [
@@ -419,7 +419,7 @@ export const experiences = [
   {
     title: "Step 5: Mastering Algorithmic Trading",
     company_name: "Algorithmic Module",
-    icon: tesla,
+    icon: therichroyal,
     iconBg: "#383E56",
     date: "Weeks 8-9",
     points: [
@@ -431,7 +431,7 @@ export const experiences = [
   {
     title: "Step 6: Options and Advanced Strategies",
     company_name: "Derivatives Masterclass",
-    icon: tesla,
+    icon: therichroyal,
     iconBg: "#E6DEDD",
     date: "Weeks 10-11",
     points: [
@@ -443,7 +443,7 @@ export const experiences = [
   {
     title: "Step 7: Building a Trading Career",
     company_name: "Career Focused Module",
-    icon: tesla,
+    icon: therichroyal,
     iconBg: "#383E56",
     date: "Week 12",
     points: [
