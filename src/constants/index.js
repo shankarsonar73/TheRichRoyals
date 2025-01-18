@@ -244,7 +244,7 @@ export const pricing = [
       "Trading Techniques: How to place trades and risk management.",
       "Trading Psychology: Master mindset and emotional control.",
       ],
-    link:"https://shankarhere.blob.core.windows.net/shankarsonar/THERICHROYALS free.pdf"
+    link:"https://oilwqapzjkjexrrukekj.supabase.co/storage/v1/object/public/new/THERICHROYALS..pdf?t=2025-01-18T16%3A58%3A19.157Z"
   },
   {
     id: "1",
