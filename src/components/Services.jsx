@@ -29,7 +29,8 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={service1}
+                src={"https://ik.imagekit.io/lwudfrs7o/service-1.png?updatedAt=1737276614867"}
+                // src={service1}
               />
               
             </div>
@@ -60,7 +61,8 @@ const Services = () => {
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src={service2}
+                  // src={service2}
+                  src={"https://ik.imagekit.io/lwudfrs7o/service-2.png?updatedAt=1737276617995"}
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
@@ -112,7 +114,8 @@ const Services = () => {
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
-                  src={service3}
+                  src={"https://ik.imagekit.io/lwudfrs7o/service-3.png?updatedAt=1737276633031"}
+                  // src={service3}
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
