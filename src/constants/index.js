@@ -344,6 +344,61 @@ export const pricing = [
 
 
 
+
+// export const benefits = [
+//   {
+//     id: "benefit-card-1",
+//     title: "Learn Anything",
+//     text: "Gain insights into trading strategies and market trends without endless searching.",
+//     backgroundUrl: "./src/assets/benefits/card-1.svg",
+//     iconUrl: benefitIcon1,
+//     imageUrl: therichroyal,
+//   },
+//   {
+//     id: "1",
+//     title: "Grow Every Day",
+//     text: "Leverage advanced tools and resources to improve your trading skills daily.",
+//     backgroundUrl: "./src/assets/benefits/card-2.svg",
+//     iconUrl: benefitIcon2,
+//     imageUrl: therichroyal,
+//     light: true,
+//   },
+//   {
+//     id: "2",
+//     title: "Trade Anywhere",
+//     text: "Access your trading dashboard on any device, anytime, for ultimate convenience.",
+//     backgroundUrl: "./src/assets/benefits/card-3.svg",
+//     iconUrl: benefitIcon3,
+//     imageUrl: therichroyal,
+//   },
+//   {
+//     id: "3",
+//     title: "Fast Execution",
+//     text: "Make quick and informed decisions with real-time market updates and analysis.",
+//     backgroundUrl: "./src/assets/benefits/card-4.svg",
+//     iconUrl: benefitIcon4,
+//     imageUrl: therichroyal,
+//     light: true,
+//   },
+//   {
+//     id: "4",
+//     title: "Comprehensive Knowledge",
+//     text: "Access all the information you need to become a confident and successful trader.",
+//     backgroundUrl: "./src/assets/benefits/card-5.svg",
+//     iconUrl: benefitIcon1,
+//     imageUrl: therichroyal,
+//   },
+//   {
+//     id: "5",
+//     title: "Achieve Consistency",
+//     text: "Refine your approach with tools designed to help you succeed in every market condition.",
+//     backgroundUrl: "./src/assets/benefits/card-6.svg",
+//     iconUrl: benefitIcon2,
+//     imageUrl: therichroyal,
+//   },
+// ];
+
+
 export const benefits = [
   {
     id: "benefit-card-1",
@@ -352,6 +407,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: therichroyal,
+    link: "https://www.investopedia.com/articles/forex/11/why-trade-forex.asp",
   },
   {
     id: "1",
@@ -361,6 +417,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: therichroyal,
     light: true,
+    link: "https://www.ig.com/en/forex/benefits-of-forex-trading",
   },
   {
     id: "2",
@@ -369,6 +426,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: therichroyal,
+    link: "https://www.babypips.com/learn/forex/advantages-of-forex",
   },
   {
     id: "3",
@@ -378,6 +436,7 @@ export const benefits = [
     iconUrl: benefitIcon4,
     imageUrl: therichroyal,
     light: true,
+    link: "https://www.investopedia.com/articles/forex/050115/pros-cons-forex-trading-career.asp",
   },
   {
     id: "4",
@@ -386,6 +445,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: therichroyal,
+    link: "https://www.ig.com/en/forex/benefits-of-forex-trading",
   },
   {
     id: "5",
@@ -394,6 +454,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: therichroyal,
+    link: "https://www.investopedia.com/articles/forex/11/why-trade-forex.asp",
   },
 ];
 
