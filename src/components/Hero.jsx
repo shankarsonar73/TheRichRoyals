@@ -55,7 +55,8 @@ const Hero = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+                  // src={robot}
+                  src={"https://ik.imagekit.io/lwudfrs7o/robot.jpg?updatedAt=1737271998372"}
                   className="w-full scale-[1.9] translate-y-[40%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[10%]"
                   width={1024}
                   height={490}

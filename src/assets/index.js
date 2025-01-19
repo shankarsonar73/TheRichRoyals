@@ -98,8 +98,6 @@ import FYERS from "./trade/FYERS.jpeg";
 import aliceblue from "./trade/aliceblue.jpeg";
 
 
-
-
 export {
   Zerodha,Upstox,angel,paisa,groww,paytm,FYERS,aliceblue,
   one,two,three,four,
