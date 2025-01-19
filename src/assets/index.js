@@ -88,6 +88,9 @@ import sbi  from "./sbi.svg";
 import adani  from "./adani.svg";
 import jio  from "./jio.svg";
 import therichroyal from "./therichroyals.png";
+
+
+
 import groww from "./trade/grow.png";
 import paisa from "./trade/paisa.jpeg";
 import angel from "./trade/Angel.png";
@@ -98,7 +101,17 @@ import FYERS from "./trade/FYERS.jpeg";
 import aliceblue from "./trade/aliceblue.jpeg";
 
 
+import forex1 from "./forex/forex1.svg";
+import forex2 from "./forex/forex2.svg";
+import forex3 from "./forex/forex3.png";
+import forex4 from "./forex/forex4.png";
+import forex5 from "./forex/forex5.png";
+import forex6 from "./forex/forex6.svg";
+import forex7 from "./forex/forex7.png";
+import forex8 from "./forex/forex8.svg";
+
 export {
+  forex1, forex2, forex3, forex4, forex5, forex6, forex7, forex8,
   Zerodha,Upstox,angel,paisa,groww,paytm,FYERS,aliceblue,
   one,two,three,four,
   icici,

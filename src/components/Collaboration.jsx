@@ -27,7 +27,7 @@ const Collaboration = () => {
             ))}
           </ul>
           
-          <Button href="#pricing">Start Now</Button>
+          <Button href="https://forms.gle/hiJbNCjTNzZdKtRR6">Start Now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
